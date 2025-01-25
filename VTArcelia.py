@@ -631,9 +631,9 @@ def change_f0_method(f0method8):
         visible = False
     return {"visible": visible, "__type__": "update"}
 
-with gr.Blocks(title="♡ Enrop") as app:
-    gr.Markdown("♡ En UI")
-    gr.Markdown(value=i18n("Guide Recommendations: (Enrops's) https://rentry.co/TrainingVoiceModels + (Litsa_the_dancer's) https://rentry.org/RVC_making-models"))
+with gr.Blocks(title="♡ VTArcelia") as app:
+    gr.Markdown("♡ Arcy UI")
+    gr.Markdown(value=i18n("Guide Recommendations: (VTArcelias's) https://rentry.co/TrainingVoiceModels + (Litsa_the_dancer's) https://rentry.org/RVC_making-models"))
     with gr.Tabs():
         with gr.TabItem(i18n("Train")):
             gr.Markdown(value=i18n(""))
